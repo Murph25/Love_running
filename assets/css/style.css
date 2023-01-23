@@ -36,10 +36,11 @@ h1, h2 {
     line-height: 75px;
 }
 #menu li {
-    float:right;
-    text-align: right;
     list-style-type: none;
     margin-right: 30px;
+    display:inline;
+    text-align: right;
+    float:right;
 
 }
 
@@ -188,4 +189,22 @@ hr{
  }
  #times h2{
     color:#fafafa;
+ }
+ footer{
+    height:150px;
+
+ }
+
+ .social{
+    text-align: center;
+ }
+ .social >li{
+    display:inline;
+ }
+
+ .social i{
+    font-size: 160%;
+    margin:1%;
+    padding:5%;
+    color:#3a3a3a;
  }
